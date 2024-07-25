@@ -27,14 +27,17 @@ Data Preparation:
 Collected and preprocessed historical stock data.
 Scaled data between 0 and 1 to enhance model performance.
 Structured data to create sequences for training, with the model learning to predict the stock price based on the last 60 days of data.
+
 Model Building:
 
 Constructed an LSTM model with four layers, each with 50 units, and incorporated dropout layers to prevent overfitting.
 Used the Adam optimizer and mean squared error as the loss function, optimizing the model for better accuracy.
+
 Training & Testing:
 
 Trained the model over 100 epochs with a batch size of 32, refining the model’s ability to predict stock prices.
 Validated the model on test data, ensuring it could generalize well to new, unseen data.
+
 Results & Visualization:
 
 Predicted stock prices and visualized them against actual prices.
